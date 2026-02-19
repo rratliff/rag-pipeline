@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+llama-index = "*"
+llama-index-embeddings-huggingface = "*"
+llama-index-llms-ollama = "*"
+llama-index-embeddings-ollama = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
+python_full_version = "3.13.3"
