@@ -8,7 +8,8 @@ The model answers chat questions about the documents stored in the `my_docs` fol
 
 * Homebrew Python
 * Homebrew pipenv
-* In PyCharm Settings, add the pipenv as a Python interpreter
+* In PyCharm Settings -> *Integrated Tools*, set *Path to Pipenv executable* to `/opt/homebrew/bin/pipenv`
+* In PyCharm, Add New Interpreter -> Local Interpreter ->  pipenv
 * Ollama
 
 ## Ollama setup
