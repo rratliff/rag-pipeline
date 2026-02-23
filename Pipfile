@@ -6,8 +6,8 @@ name = "pypi"
 [packages]
 llama-index = "*"
 llama-index-embeddings-huggingface = "*"
-llama-index-llms-ollama = "*"
 llama-index-embeddings-ollama = "*"
+llama-index-llms-ollama = "*"
 
 [dev-packages]
 
