@@ -8,9 +8,20 @@ The model answers chat questions about the documents stored in the `my_docs` fol
 
 * Homebrew Python
 * Homebrew pipenv
+* Ollama
+
+### Run Jupyter Notebook in VS Code (recommended)
+
+* Install VS Code
+* Run the Jupyter notebook
+
+### Run Jupyter notebooks in PyCharm
+
+A Jetbrains subscription is required to use Jupyter notebooks in Pycharm.
+
 * In PyCharm Settings -> *Integrated Tools*, set *Path to Pipenv executable* to `/opt/homebrew/bin/pipenv`
 * In PyCharm, Add New Interpreter -> Local Interpreter ->  pipenv
-* Ollama
+
 
 ## Ollama setup
 
