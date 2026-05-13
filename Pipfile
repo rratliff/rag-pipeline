@@ -4,12 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+azure-search-documents = "==11.5.1"
 llama-index = "*"
+llama-index-embeddings-azure-openai = "*"
 llama-index-embeddings-huggingface = "*"
 llama-index-embeddings-ollama = "*"
+llama-index-llms-azure-openai = "*"
 llama-index-llms-ollama = "*"
+llama-index-vector-stores-azureaisearch = "*"
+dotenv = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.13"

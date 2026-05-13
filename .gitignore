@@ -1,2 +1,7 @@
 my_docs/
 storage/
+
+__pycache__/
+
+# Secrets
+.env
